@@ -24,8 +24,9 @@ public class Media {
                     System.out.println("Quanti voti vuoi aggiungere?");
                     int nv =Integer.parseInt(input.readLine());
                     for (int i = nv; i>0; i--){
-                        double voto = double.parseDouble(input.readLine());
-                        Materia.addMark(voto);
+                        double voto = Double.parseDouble(input.readLine());
+                        //Materia.addMark(voto);
+                        // Necessita di un Oggetto per funzionare
                     }
                 case 3:
             }
